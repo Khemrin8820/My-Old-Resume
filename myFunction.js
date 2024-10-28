@@ -19,36 +19,34 @@ const resumeList = {
                 <span>Khmer:</span> (Native).<br>
                 <span>English:</span> (Medium).
               </p>`,
-  skill: `<p id="skills"><span>Soft Skills:</span><br>
-          - Communication.<br>
-          - Resolve Problems.<br>
-          - Team Works.<br>
-          - Responsibility.<br>
-          <span>IT Support:</span><br>
-          - Boot Windows.<br>
-          - Set up Windows.<br>
-          - Reset Password PCs.<br>
-          - Clean Up Pcs.<br>
-          - Create Bootable Media.<br>
-          - Backup and Restore Files, Hard Disk, or System.<br>
-          - Clone Files, Hard Disk, or System.<br>
-          - a bit of Knowledge of Networking & Cisco.
-        </p>
+  skill: `
         <p id="skills">
-          <span>Code Languages:</span><br>
+          <span>Technology:</span><br>
+          - Microsoft Office<br>
+          - Canva<br>
+          - Photoshop<br>
+          - Figma<br>
           - C++<br>
-          - HTML5 & CSS3<br>
-          - Javascript<br>
+          - OOP<br>
+          - HTML5<br>
+          - CSS3<br>
+          - JavaScript<br>
           - jQuery<br>
-          - Bootstrap<br>
+          - Boostrap<br>
           - Git & GitHub<br>
           - Node.js<br>
-          - Express Js<br>
-        </p>`,
+        </p><p id="skills">
+        - Express JS<br>
+        - EJS<br>
+        - APIs<br>
+        - SQL<br>
+        - React JS<br>
+        </p>`
+  ,
   experience: `
         <p id="experiences">
           <span>Product Catalog Officer Wingmall App at Wing Bank<br>
-            (Jan 2022 - Apr 2024)</span><br>
+            (July 2023 - Aug 2024)</span><br>
           - Create Stores & Menus on Wingmall.<br>
           - Add Promotion Merchants on Wingmall.<br>
           - Create Stores and menus for Merchants.<br>
