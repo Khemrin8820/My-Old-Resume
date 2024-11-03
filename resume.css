@@ -404,12 +404,12 @@ body {
     margin-right: 8%;
   }
   #skills {
-    font-size: 13px;
-    line-height: 17px;
+    font-size: 17px;
+    line-height: 21px;
     margin-right: 25px;
   }
   #experiences {
-    font-size: 10px;
-    line-height: 14px;
+    font-size: 15px;
+    line-height: 18.5px;
   }
 }

@@ -33,9 +33,9 @@ const resumeList = {
           - JavaScript<br>
           - jQuery<br>
           - Boostrap<br>
-          - Git & GitHub<br>
-          - Node.js<br>
         </p><p id="skills">
+        - Git & GitHub<br>
+        - Node.js<br>
         - Express JS<br>
         - EJS<br>
         - APIs<br>
@@ -47,16 +47,18 @@ const resumeList = {
         <p id="experiences">
           <span>Product Catalog Officer Wingmall App at Wing Bank<br>
             (July 2023 - Aug 2024)</span><br>
-          - Create Stores & Menus on Wingmall.<br>
-          - Add Promotion Merchants on Wingmall.<br>
-          - Create Stores and menus for Merchants.<br>
-          - Update Menus, Stores, On Wingmall.<br>
-          - Daily Works Report to Manager.<br>
-          - Create Promotions on Wingmall.<br>
-          - Edit Images and Covers on Wingmall.<br>
-          - Communication with Merchant Owners.<br>
-          - Relate With Sale Teams.<br>
-          - Resolve Problems for Merchant Owners.
+           - Create Stores & Menus on Wingmall.<br>
+  - Add Promotion Merchants on Wingmall.<br>
+  - Create Stores and menus for Merchants.<br>
+  - Update Menus, Stores, On Wingmall.<br>
+  - Daily Works Report to Manager.<br>
+  - Create Promotions on Wingmall.<br>
+  - Edit Images and Covers on Wingmall.<br>
+  - Call Customers about the win promotion.<br>
+  - Communication with Merchant Owners.<br>
+  - Relate With Sale Teams.<br>
+  - Resolve Problems for Merchant Owners.<br>
+  - Create Cover for Merchant in Wingmall App
         </p>`
 };
 $('.resume-body').html(resumeList.address);
