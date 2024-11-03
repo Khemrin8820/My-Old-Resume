@@ -117,34 +117,35 @@ const portfolioList = [
     "title": "User Interface"
   },
 ];
-const projectVideoList = {
-  video1: `<video src="./projects/Add Items.mp4" autoplay></video>`,
-  video2: `<video src="./projects/Fetch Data From Backend.mp4" autoplay></video>`,
-  video3: `<video src="./projects/Interface.mp4" autoplay></video>`,
-}
+const projectVideoList = [{
+  video: `<video src="./projects/Add Items.mp4" autoplay></video>`
+},
+{ video: `<video src="./projects/Fetch Data From Backend.mp4" autoplay></video>` },
+{ video: `<video src="./projects/Interface.mp4" autoplay></video>` }];
 projectList();
 function projectList() {
   let txt = "";
   portfolioList.forEach((e,i) => {
-    txt += `<li data-idd="${i}">
+    txt += `<li data-idd="${i}" id="portfo">
             <img src="${e['image']}" alt="${e['projectName']}">
           </li>`;
   });
   $('.portfolio-project').html(txt);
+  
+  
+  $('.portfolio-project li').click(function () {
+    var btnLi = $(this).data('idd');
+    // console.log(btnLi);
+  projectVideoList.map((e,i) => {
+    if (btnLi === i) {
+      $('.projects-video').fadeIn();
+      $('.projects-video .videos-list').html(e.video);
+    }
+  });
+});
 }
 
-$('.portfolio-project li').click(function () {
-  if ($(this).data('idd') === 0) {
-    $('.projects-video').fadeIn();
-    $('.projects-video .videos-list').html(projectVideoList.video1);
-  } else if($(this).data('idd')===1) {
-    $('.projects-video').fadeIn();
-    $('.projects-video .videos-list').html(projectVideoList.video2);
-  } else {
-    $('.projects-video').fadeIn();
-    $('.projects-video .videos-list').html(projectVideoList.video3);
-  }
-});
+
 $('.projects-video #btn-close').click(function () {
   $('.projects-video').fadeOut();
 });
