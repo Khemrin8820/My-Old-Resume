@@ -101,6 +101,21 @@ const portfolioList = [
     "image": "./projects/User Interface.png",
     "title": "User Interface"
   },
+  {
+    "projectName": "Project1",
+    "image": "./projects/User Interface.png",
+    "title": "User Interface"
+  },
+  {
+    "projectName": "Project1",
+    "image": "./projects/User Interface.png",
+    "title": "User Interface"
+  },
+  {
+    "projectName": "Project1",
+    "image": "./projects/User Interface.png",
+    "title": "User Interface"
+  },
 ];
 const projectVideoList = {
   video1: `<video src="./projects/Add Items.mp4" autoplay></video>`,
@@ -113,7 +128,6 @@ function projectList() {
   portfolioList.forEach((e,i) => {
     txt += `<li data-idd="${i}">
             <img src="${e['image']}" alt="${e['projectName']}">
-            <p>${e['title']}</p>
           </li>`;
   });
   $('.portfolio-project').html(txt);
