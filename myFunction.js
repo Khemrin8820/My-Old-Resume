@@ -100,22 +100,7 @@ const portfolioList = [
     "projectName": "Project1",
     "image": "./projects/User Interface.png",
     "title": "User Interface"
-  },
-  {
-    "projectName": "Project1",
-    "image": "./projects/User Interface.png",
-    "title": "User Interface"
-  },
-  {
-    "projectName": "Project1",
-    "image": "./projects/User Interface.png",
-    "title": "User Interface"
-  },
-  {
-    "projectName": "Project1",
-    "image": "./projects/User Interface.png",
-    "title": "User Interface"
-  },
+  }
 ];
 const projectVideoList = [{
   video: `<video src="./projects/Add Items.mp4" autoplay></video>`
